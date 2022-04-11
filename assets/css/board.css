@@ -1,8 +1,99 @@
 @charset "UTF-8";
+/* 게시판 공통 */
 
 
-
-#contents>div {
+.form-group {
+	padding : 0px 0px 10px 0px;
 }
 
+select {
+	padding : 6px 3px 6px 3px;
+}
+
+textarea {
+	font-size : 14px;
+	font-family : "맑은 고딕", 굴림, 돋움;
+}
+
+input[type="text"]{
+	padding : 6px 3px 6px 6px;
+}
+input[type="password"]{
+	padding : 6px 3px 6px 6px;
+}
+input[type="radio"] {
+	margin : 0px 20px 0px 0px;
+	width: 15px;
+	height: 15px;
+}
+
+input[type="file"] {
+	cursor: pointer;
+}
+
+.btn {
+	padding : 5px 0px;
+	width : 80px;
+	cursor: pointer;
+}
+
+#main-content-body {
+	padding : 30px 0px 20px 0px;
+	border-bottom : 1px solid #dddddd;
+}
+
+#main-content-footer {
+	padding : 20px 0px;
+	text-align: center;
+}
+
+/* 리스트
+#contents > #main-content>#main-content-header > ol {
+	float : right;
+}
+
+#contents > #main-content>#main-content-header > ol > li {
+	float : left;	
+}
+
+#contents > #main-content>#main-content-header > ol > li:after {
+	margin : 0px 5px 0px 5px;
+	content : ">";
+}
+
+#contents > #main-content>#main-content-header > ol > .none:after {
+	content : none;
+}
+
+#contents > #main-content>#main-content-board > input {
+	float : left;	
+}
+ */
+ 
+ 
+ 
+ 
+ 
+/* 글쓰기 폼 */
+
+
+#main-content-body .form-title {
+	display : inline-block;
+	width : 80px;		
+}
+#main-content-body #txt-password {
+	width:150px;
+}
+#main-content-body #sel-board {
+	width:162px;
+}
+
+#main-content-body #txt-title {
+	width:722px;
+}
+
+#main-content-body #txt-content {
+	width: 100%; /*808px*/
+	height : 200px;
+}
 
