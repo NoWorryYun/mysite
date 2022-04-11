@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+/********************** 초기화 ***********************/
+/*여백 초기화*/
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, input, fieldset, legend, p, select, table, th, td, tr, textarea, button, form {
+	margin: 0; padding: 0;
+}
+
+body {
+	font-size: 12px;
+	font-family: "맑은 고딕", 돋움, 굴림;	
+}
+
+/*리스트 초기화*/
+ul, ol { list-style-type: none; }
+
+/*링크 초기화*/
+a:link { color: #000000; text-decoration: none; }
+a:visited { color: #000000; text-decoration: none; }
+a:hover { color: #000000; text-decoration: none; }
+a:active { color: #000000; text-decoration: none; }
+
+/* clearfix */
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after{display: block; content: ""; line-height: 0;}
+.clearfix:after{clear: both;}
+
+.bold {font-weight: bold;}
+
+/*- 어지간하면 초기값은 위에 배치(공통으로 사용하는 것)*/
+
+
+
+/********************** 레이아웃 **********************/
+#wrap {
+	margin: 0px auto;
+	width: 1000px;	
+}
+
+#wrap > #header {
+	padding: 10px 0px 10px 0px;
+	width: 1000px;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+#wrap > #nav {
+	padding : 10px 0px 10px 0px;	
+	border-bottom: 1px solid #bfbfbf;
+}
+/* 가로 전체사용할때*/
+#wrap > #full-contents {
+	padding : 40px 20px 40px 20px;
+}
+/* 가로 서브메뉴 있을 때*/
+#wrap > #contents {
+	padding : 30px 0px 30px 0px;
+}
+
+
+
+
+#wrap > #footer {
+	padding : 15px 0px 15px 0px;
+	background-color: #dddddd;	
+} 
+
+/* #wrap > #footer {
+	height: 50px;
+	background-color: #dddddd;
+} */
+
+/********************** 헤더(로고 로그인 회원가입) **********************/
+
+#header > h1 {
+	float: left;
+	color: #79B30B;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+#header > ul {
+	margin-top: 15px;
+	float: right;
+}
+
+#header ul > li {
+	margin-left: 20px;
+	float: left;
+	font-size: 14px;
+}
+
+	/********************** 네비(메인메뉴) **********************/
+
+#nav ul>li {
+	float : left;
+	width : 250px;	
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+	
+	
+	/********************** 컨텐츠(서브메뉴 있을 때) **********************/
+
+	
+#contents > #aside {
+	margin : 0px 10px 0px 0px;
+	float: left;	
+	width : 170px;
+}
+
+#contents > #aside > h2 {
+/* 	padding : 25px 0px 25px 0px; */
+	background-color: #dddddd;
+	text-align: center;
+	font-size: 20px;
+	line-height: 60px;
+}	
+
+#contents > #aside > ul> li {
+	margin-top : 5px;
+	padding : 8px 0px 8px 10px;
+	border : 1px solid #a6a6a6;	
+	font-size: 11px;
+}
+
+
+	/********************** 메인컨텐츠 **********************/
+
+
+#contents > #main-content {
+	float: left;
+	width : 820px;
+}
+
+#contents > #main-content>#main-content-header {
+	padding : 18px 0px 5px 0px;
+	border-bottom : 1px solid #bfbfbf;	
+}
+#contents > #main-content>#main-content-header>h3 {
+	font-size:18px;
+	font-weight: bold;
+	float : left;
+}
+
+#contents > #main-content>#main-content-header > ol {
+	float : right;
+}
+
+#contents > #main-content>#main-content-header > ol > li:after {
+	content : ">";
+}
+
+#contents > #main-content>#main-content-header > ol > li {
+	float : left;	
+}
+
+	/********************** 푸터 **********************/
+	
+#footer div{
+	font-size: 12px;
+	text-align: center;	
+}
+	
+	
+	
+/* 	#footer div{
+	font-size: 12px;
+	text-align: center;	
+	line-height: 50px;
+	} */
+	
+	
+
+		
