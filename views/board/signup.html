@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="/javastudy/workspace_front/mysite/assets/css/mysite.css">
+<link rel="stylesheet" href="/javastudy/workspace_front/mysite/assets/css/board.css">
+
+</head>
+<body>
+<div id="wrap">
+	<div id="header" class="clearfix">
+		<h1>Mysite</h1>
+		<ul class="clearfix"> 
+			<li>
+				<a href="">로그인</a>
+			</li>
+			<li>
+				<a href="">회원가입</a>
+			</li>
+		</ul>
+	</div>
+	<!-- header -->
+	
+	<div id="nav" class="clearfix">
+		<ul class="clearfix">
+			<li><a href="">입사지원서</a></li>
+			<li><a href="">게시판</a></li>
+			<li><a href="">갤러리</a></li>
+			<li><a href="">방명록</a></li>
+		</ul>
+	</div>
+	<!-- nav -->
+	<div id="contents" class="clearfix">
+		<div id="aside">
+			<h2>회원</h2>
+		
+			<ul>
+				<li><a href="">회원가입</a></li>
+				<li><a href="">로그인</a></li>
+				<li><a href="">탈퇴</a></li>
+			</ul>
+		
+		</div>
+		<!-- aside -->
+
+		<div id="main-content">
+			<div id="main-content-header" class="clearfix">
+				<h3>회원가입</h3>
+				<ol id="breadcrumbs">
+					<li><a href="">홈</a></li>
+					<li><a href="">회원</a></li>
+					<li class="none"><a href="">회원가입</a></li>
+				</ol>
+			</div>
+			<!-- main-content-header -->
+		<!-- main-content -->
+		<div id="signup">
+			<div>
+				<label class="form-title2" for="txt-id">아이디</label>
+				<input id="txt-id" type="text" value="" placeholder="아이디를 입력하세요">
+			</div>
+			<div>
+				<label class="form-title2" for="txt-pw">패스워드</label>
+				<input id="txt-pw" type="password" value="" placeholder="패스워드를 입력하세요">
+			</div>
+			<div>
+				<label class="form-title2" for="txt-name">이름</label>
+				<input id="txt-name" type="text" value="" placeholder="이름을 입력하세요">
+			</div>
+			<div>
+				<label class="form-title2" for="profile">프로필사진</label> <input id="profile" type="file">
+			</div>
+			<div>
+				<div class="form-title4">
+					<label for="address">주소</label>
+				</div>
+				<div class="form-title3">
+					<input id="txt-address-number" type="text" value="" placeholder="우편번호">
+					<button class="bspace">우편번호찾기</button>
+					<input id="txt-address" type="text" value="" placeholder="주소">
+				</div>
+			</div>
+			<div>
+				<label class="form-title2" for="mobile">이동통신사</label>
+				<select id="mobile">
+					<option>SKT
+					<option>KT
+					<option>LGU
+					<option>알뜰폰
+				</select>
+			</div>
+			<div>
+				<span class="form-title2">나이</span>
+				<label for="10dae">10대</label><input id="10dae" type="radio" name="age">
+				<label for="20dae">20대</label><input id="20dae" type="radio" name="age">
+				<label for="30dae">30대</label><input id="30dae" type="radio" name="age">
+				<label for="40dae">40대</label><input id="40dae" type="radio" name="age">
+				<label for="age-etc">기타</label><input id="age-etc" type="radio" name="age">
+			</div>
+			<div>
+				<span class="form-title2">취미</span>
+				<label for="hobby-read">독서</label><input id="hobby-read" type="checkbox" name=hobby>
+				<label for="hobby-music">음악</label><input id="hobby-music" type="checkbox" name=hobby>
+				<label for="hobby-trip">여행</label><input id="hobby-trip" type="checkbox" name=hobby>
+				<label for="hobby-movie">영화</label><input id="hobby-movie" type="checkbox" name=hobby>
+				<label for="hobby-coding">코딩</label><input id="hobby-coding" type="checkbox" name=hobby>
+				<label for="hobby-etc">기타</label><input id="hobby-etc" type="checkbox" name=hobby>
+			</div>
+			<div>
+				<label class="form-title4" for="introduce">자기소개</label>
+				<input id="introduce" type="text">
+			</div>
+		</div>
+	</div>
+		
+	<div id="submit">
+		<button>등록</button><button>초기화</button>
+	</div>
+		<!-- signup -->
+	</div>
+	<!-- content -->
+	<div id="footer">
+		<div>Copyright ⓒ 2020 황일영, All right reserved</div>
+	</div>
+	<!-- footer -->
+</div>
+<!-- wrap -->
+</body>
+</html>

@@ -27,6 +27,12 @@ input[type="radio"] {
 	height: 15px;
 }
 
+input[type="checkbox"] {
+	margin : 0px 20px 0px 0px;
+	width: 15px;
+	height: 15px;
+}
+
 input[type="file"] {
 	cursor: pointer;
 }
@@ -47,7 +53,8 @@ input[type="file"] {
 	text-align: center;
 }
 
-/* 리스트
+/****************************리스트*****************************/
+
 #contents > #main-content>#main-content-header > ol {
 	float : right;
 }
@@ -65,14 +72,47 @@ input[type="file"] {
 	content : none;
 }
 
-#contents > #main-content>#main-content-board > input {
-	float : left;	
+#contents > #main-content>#main-content-board > #search {
+	float : right;	
 }
- */
+
+#search {
+	padding : 20px 0px 10px 0px;
+}
+
+.search-b {
+	padding : 4px 0px;
+	margin : 7px 0px 0px 5px;
+	width: 55px;
+}
  
- 
- 
- 
+#main-content-boarder {
+	margin : 10px 0px;
+	border-top : 1px solid #a6a6a6;
+	border-bottom : 1px solid #a6a6a6;
+	border-collapse:collapse;
+ 	width: 100%;
+ 	text-align: center;
+ }
+
+#main-content-boarder > thead {
+	background-color: #dddddd;
+}
+
+#main-content-boarder tr {
+	height : 40px;	
+} 
+
+#main-content-boarder tr td {
+	border-top : 1px dotted #a6a6a6;	
+} 
+
+
+.write {
+	padding : 3px 0px;
+	width : 60px;
+	float : right;
+}
  
 /* 글쓰기 폼 */
 
@@ -94,6 +134,77 @@ input[type="file"] {
 
 #main-content-body #txt-content {
 	width: 100%; /*808px*/
+	height : 200px;
+}
+
+#page-select {
+	text-align: center;
+}
+
+#page-select > a {
+	font-size : 14px;
+	margin : 0px 3px 0px 3px;
+}
+
+.now {
+	color : green;	
+	font-weight: bold;
+}
+
+
+
+/* sign up form */
+
+#signup {
+	float : left;
+	width : 100%;
+}
+
+#signup>div {
+	padding : 10px 0px 10px 0px;
+	border-bottom : 1px solid #dddddd;	
+}
+
+#signup div .form-title2{
+	display : inline-block;
+	width : 80px;	
+}
+
+.form-title3{
+	display : inline-block;
+	width : 600px;
+}
+
+.form-title4{
+	float : left;
+	width : 80px;
+}
+
+.address-box{
+	float : left;
+}
+
+.bspace{
+	padding : 2px 2px;
+}
+
+#txt-address{
+	margin-top : 5px;
+	width : 500px;
+}
+
+#submit {
+	text-align: center;
+}
+
+#submit > button {
+	margin : 10px 5px 0px 5px;
+	padding : 5px 0px;
+	width : 60px;
+}
+
+#introduce {
+	width : 500px;
 	height : 200px;
 }
 
